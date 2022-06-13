@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Syncopate:wght@700&display=swap');
+@font-face {
+  font-family: 'SBAggroM';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroM.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.MontserratM {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.MontserratB {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.SyncopateB {
+  font-family: 'Syncopate', sans-serif;
+  font-weight: 700;
+}
+
+.AggroM {
+  font-family: 'SBAggroM';
+}
+
+/* 헤더 */
+
+.header {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  z-index: 1;
+  background-color: antiquewhite;
+  
+}
+
+.header > p {
+  /* color: white; */
+}
+
+/* ------- */
+.text {
+    position: relative;
+    font-weight: 900;
+    font-size: 3.7em;
+    color: white;
+  }
+  .text .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+  .text .letter {
+    transform-origin: 0 100%;
+    display: inline-block;
+    line-height: 1em;
+  }
